@@ -7,6 +7,7 @@ export const keywords = [
   "hashing",
   "graph",
   "mathematics",
+  "machine learning",
 ] as const;
 
 export type KeyWord = typeof keywords[number];
@@ -570,6 +571,11 @@ export const en_dk : Lexeme[] = [
     word: "heap",
     translations: ["hob"],
     keywords: ["algorithmics"]
+  },
+  {
+    word: "hidden layer",
+    translations: ["skjulte lag"],
+    keywords: ["machine learning"]
   },
   {
     word: "hull",
